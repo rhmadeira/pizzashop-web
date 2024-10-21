@@ -6,7 +6,7 @@ export function AppLayout() {
       <h1 className="text-red-600">App Layout</h1>
       <div>
         <Outlet />
-        </div>
+      </div>
     </div>
   );
 }
