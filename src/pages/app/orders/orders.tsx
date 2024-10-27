@@ -42,7 +42,7 @@ export function Orders() {
                 return (
                   <TableRow key={i}>
                     <TableCell>
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline" size="xs">
                         <Search className="h-3 w-3" />
                         <span className="sr-only">Detalhes do pedido</span>
                       </Button>
@@ -66,13 +66,13 @@ export function Orders() {
                     </TableCell>
                     <TableCell className="font-medium">R$ 149,90</TableCell>
                     <TableCell>
-                      <Button variant="outline" size="sm">
+                      <Button variant="outline" size="xs">
                         <ArrowRight className="mr-2 h-3 w-3" />
                         Aprovar
                       </Button>
                     </TableCell>
                     <TableCell>
-                      <Button variant="ghost" size="sm">
+                      <Button variant="ghost" size="xs">
                         <X className="mr-2 h-3 w-3" />
                         Cancelar
                       </Button>
