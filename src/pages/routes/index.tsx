@@ -7,11 +7,13 @@ import { AppLayout } from "@/pages/_layouts/app";
 import { AuthLayout } from "@/pages/_layouts/auth";
 import { Orders } from "@/pages/app/orders/orders";
 import { Dashboard } from "@/pages/app/dashboard/dashboard";
+import { NotFound } from "../404";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
+    errorElement: <NotFound />,
     children: [
       {
         path: "/",
